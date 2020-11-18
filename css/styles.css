@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'cashews';
+  src: url('../fonts/cashews.ttf') format('truetype');
+}
+
+p{
+  background-color: white;
+  display: inline;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
+
+body{
+  background-image: url("../images/tv.png");
+  }
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  letter-spacing: 20px;
+}
+
+h2{
+  font-family: 'cashews';
+  font-weight: bold;
+  text-decoration: underline yellow;
+}
+
+h3{
+  color: green;
+  font-style: italic;
+  text-align: center;
+}
+
+section{
+  background-color: white;
+  border-radius: 20px;
+  border-style: dotted;
+  margin: 10px;
+  padding: 15px;
+  width: 500px;
+}
+
+.characters {
+  border-radius: 30px;
+  border-style: groove;
+  border-width:thick;
+}
+
+font-family{
+  font-family: 'opensans-regular', sans-serif;
+}
