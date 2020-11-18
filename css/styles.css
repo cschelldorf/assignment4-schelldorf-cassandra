@@ -1,3 +1,7 @@
+/*----------------------
+Font CSS
+  -------------*/
+
 @font-face {
   font-family: 'cashews';
   src: url('../fonts/cashews.ttf') format('truetype');
@@ -10,6 +14,19 @@ p{
   font-weight: bold;
   text-align: left;
 }
+
+/*---------------
+Nav css
+---------------*/
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  }
+/*----------
+Body css
+------*/
 
 body{
   background-image: url("../images/tv.png");
