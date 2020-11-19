@@ -1,4 +1,13 @@
 /*----------------------
+Universal Styling
+  -------------*/
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+  /*----------------------
 Font CSS
   -------------*/
 
@@ -7,20 +16,25 @@ Font CSS
   src: url('../fonts/cashews.ttf') format('truetype');
 }
 
+font-family{
+  font-family: 'opensans-regular', sans-serif;
+}
+
 p{
   background-color: white;
   display: inline;
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+  font-weight: regular;
   text-align: left;
 }
 
 /*---------------
 Nav css
 ---------------*/
-ul{
+.ul{
   list-style-type: none;
   padding: 0;
+  background: white;
   }
 
 li {
@@ -30,6 +44,16 @@ li {
 /*----------
 Body css
 ------*/
+section.about-new-girl img{
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  z-index: -1;
+}
+
+section.about-new-girl {
+  margin: 70px 0px 0px 10px;
+}
 
 body{
   background-image: url("../images/tv.png");
@@ -39,7 +63,13 @@ h1{
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   letter-spacing: 20px;
-}
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  padding: 3px;
+  background-color: white;
+  z-index: 4;
+  }
 
 h2{
   font-family: 'cashews';
@@ -68,6 +98,15 @@ section{
   border-width:thick;
 }
 
-font-family{
-  font-family: 'opensans-regular', sans-serif;
+section.characters{
+  position: relative;
+  top: 10px;
+  left: 100px;
+  list-style-stype: disc;
+}
+
+section.characters img{
+  position: inline;
+  top: 60px;
+  left: 0px;
 }
