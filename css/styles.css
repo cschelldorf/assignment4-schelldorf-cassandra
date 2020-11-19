@@ -136,7 +136,15 @@ h3{
   padding-bottom: 5px;
 }
 
-h4{
+section.jess h4{
+  color: red;
+  font-style: italic;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+section.winston h4{
   color: red;
   font-style: italic;
   text-align: center;
