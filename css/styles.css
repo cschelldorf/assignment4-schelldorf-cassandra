@@ -50,11 +50,6 @@ p{
   margin: 5px;
   padding: 10px;
   max-width: 500px;
-  max-height: 1000px;
-}
-
-.all-characters{
-  list-style-type: circle;
 }
 
 nav a:hover {
@@ -106,9 +101,8 @@ section.about-new-girl {
 
 section.about-new-girl img {
     position: absolute;
-    align-content: center;
+    object-fit: cover;
     top: 120px;
-    width: 250px;
     z-index: -1;
 }
 
@@ -142,19 +136,40 @@ h3{
   padding-bottom: 5px;
 }
 
+section.all-characters li{
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 25px;
+}
+
+li span {
+    position: relative;
+    left: -10px;
+}
+
 section.characters img{
   position: inline;
   top: 60px;
   left: 0px;
   padding: 10px;
-  padding-bottom: 15px;
+  float: left;
+  width: 45%;
 }
 
-section.characters img {
-    float: left;
-    width: 45%;
-    padding: 15px 10px 15px;
+section.jess img {
+    padding-right: 10px;
 }
+
+section.winston img {
+    padding-right: 10px;
+}
+
+section.winston {
+    overflow: auto;
+    height: auto;
+  }
+
 
 blockquote {
     float: right;
@@ -170,10 +185,10 @@ blockquote {
 
 div.ferguson{
   position: absolute;
-  top: -40px;
+  top: -20px;
   left: 0px;
-  animation: drive 3s forwards infinite linear,
-            jump 0.6s 3.2s ease infinite;
+  animation: drive 7s alternate infinite linear,
+            jump 2s 3.2s ease infinite;
 }
 
 @keyframes drive{
@@ -193,4 +208,4 @@ div.ferguson{
     top: -100px;
   100%{
     top: -40px;
-}
+  }
