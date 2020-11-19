@@ -84,6 +84,43 @@ li {
       display: inline;
       padding: 5px;
   }
+  /*----------
+  Header css
+  ------*/
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  letter-spacing: 20px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  padding: 3px;
+  background-color: white;
+  z-index: 4;
+  }
+
+h2{
+  font-family: 'cashews';
+  font-weight: bold;
+  text-decoration: underline yellow;
+  }
+
+h3{
+  color: green;
+  font-style: italic;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  }
+
+h4{
+  color: red;
+  font-style: italic;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  }
+
 /*----------
 Body css
 ------*/
@@ -109,48 +146,6 @@ section.about-new-girl img {
 body{
   background-image: url("../images/tv.png");
   }
-
-h1{
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  letter-spacing: 20px;
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  padding: 3px;
-  background-color: white;
-  z-index: 4;
-  }
-
-h2{
-  font-family: 'cashews';
-  font-weight: bold;
-  text-decoration: underline yellow;
-}
-
-h3{
-  color: green;
-  font-style: italic;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 5px;
-}
-
-section.jess h4{
-  color: red;
-  font-style: italic;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 5px;
-}
-
-section.winston h4{
-  color: red;
-  font-style: italic;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 5px;
-}
 
 section.characters li{
   display: list-item;
@@ -185,7 +180,7 @@ section.winston {
     overflow: auto;
     height: auto;
   }
-  
+
 blockquote {
     float: right;
     width: 45%;
