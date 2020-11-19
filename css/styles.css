@@ -26,7 +26,7 @@ p{
   border-radius: 20px;
   border-style: dotted;
   border-width: 3px;
-  padding: 5px;
+  padding: 10px;
   max-width: 500px;
 }
 
@@ -37,7 +37,7 @@ p{
   border-style: solid;
   border-width: 3px;
   margin: 5px;
-  padding: 5px;
+  padding: 10px;
   max-width: 500px;
 }
 
@@ -48,8 +48,17 @@ p{
   border-style: dotted;
   border-width: 3px;
   margin: 5px;
-  padding: 5px;
+  padding: 10px;
   max-width: 500px;
+  max-height: 1000px;
+}
+
+.all-characters{
+  list-style-type: circle;
+}
+
+nav a:hover {
+    background: pink;
 }
 
 
@@ -89,19 +98,18 @@ section.about-new-girl h1{
 }
 
 section.about-new-girl {
-  margin: 50px 0px 0px 10px;
+  margin: 50px 0px 0px 5px;
   display: block;
   background-color: white;
+  padding: 10px;
 }
 
-section.about-new-girl img{
-  position: absolute;
-  top: 60px;
-  z-index: -1;
-}
-
-div.about{
-  margin-top: 50px;
+section.about-new-girl img {
+    position: absolute;
+    align-content: center;
+    top: 120px;
+    width: 250px;
+    z-index: -1;
 }
 
 body{
@@ -130,29 +138,19 @@ h3{
   color: green;
   font-style: italic;
   text-align: center;
-}
-
-section.characters {
-  background-color: white;
-  border-radius: 20px;
-  border-style: dotted;
-}
-
-section.characters ul{
-  list-style-type: circle;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 section.characters img{
   position: inline;
   top: 60px;
   left: 0px;
+  padding: 10px;
+  padding-bottom: 15px;
 }
 
-div.all-characters{
-  list-style-type: circle;
-}
-
-img {
+section.characters img {
     float: left;
     width: 45%;
     padding: 15px 10px 15px;
@@ -167,14 +165,15 @@ blockquote {
     padding: 5px;
     border-top: 1px solid#665544;
     border-bottom: 1px solid #665544;
+    margin-top: 10px;
 }
 
-.ferguson{
+div.ferguson{
   position: absolute;
   top: -40px;
   left: 0px;
   animation: drive 3s forwards infinite linear,
-            jump 0.6s 1.2s ease infinite;
+            jump 0.6s 3.2s ease infinite;
 }
 
 @keyframes drive{
