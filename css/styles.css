@@ -136,7 +136,6 @@ h3{
   padding-bottom: 5px;
 }
 
-
 h4{
   color: red;
   font-style: italic;
@@ -152,7 +151,7 @@ section.characters li{
   padding-left: 25px;
 }
 
-section.characters li span {
+li span {
     position: relative;
     left: -10px;
 }
