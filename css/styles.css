@@ -20,7 +20,7 @@ p{
   overflow: scroll;
 }
 
-.about-new-girl{
+section.about-new-girl{
   display: block;
   background-color: white;
   border-radius: 20px;
@@ -30,7 +30,7 @@ p{
   max-width: 500px;
 }
 
-.overview{
+section.overview{
   display: block;
   background-color: white;
   border-radius: 20px;
@@ -41,7 +41,7 @@ p{
   max-width: 500px;
 }
 
-.characters{
+section.characters{
   display: block;
   background-color: white;
   border-radius: 20px;
@@ -136,7 +136,15 @@ h3{
   padding-bottom: 5px;
 }
 
-section.all-characters li{
+h4{
+  color: green;
+  font-style: italic;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+section.characters li{
   display: list-item;
   list-style-type: disc;
   list-style-position: inside;
@@ -206,6 +214,7 @@ div.ferguson{
   }
   50%{
     top: -100px;
+  }
   100%{
     top: -40px;
   }
