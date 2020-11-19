@@ -7,6 +7,52 @@ Universal Styling
   border: 0;
 }
 
+body{
+  padding: 100px;
+}
+
+p{
+  background-color: white;
+  display: inline;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  text-align: left;
+  overflow: scroll;
+}
+
+.about-new-girl{
+  display: block;
+  background-color: white;
+  border-radius: 20px;
+  border-style: dotted;
+  border-width: 3px;
+  padding: 5px;
+  max-width: 500px;
+}
+
+.overview{
+  display: block;
+  background-color: white;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 3px;
+  margin: 5px;
+  padding: 5px;
+  max-width: 500px;
+}
+
+.characters{
+  display: block;
+  background-color: white;
+  border-radius: 20px;
+  border-style: dotted;
+  border-width: 3px;
+  margin: 5px;
+  padding: 5px;
+  max-width: 500px;
+}
+
+
   /*----------------------
 Font CSS
   -------------*/
@@ -20,21 +66,14 @@ font-family{
   font-family: 'opensans-regular', sans-serif;
 }
 
-p{
-  background-color: white;
-  display: inline;
-  font-family: 'Roboto', sans-serif;
-  font-weight: regular;
-  text-align: left;
-}
 
 /*---------------
 Nav css
 ---------------*/
-.ul{
+nav{
+  background: white;
   list-style-type: none;
   padding: 0;
-  background: white;
   }
 
 li {
@@ -44,15 +83,25 @@ li {
 /*----------
 Body css
 ------*/
-section.about-new-girl img{
-  position: absolute;
-  top: 60px;
-  left: 0px;
-  z-index: -1;
+
+section.about-new-girl h1{
+  margin: 30px 0px 0px 10px;
 }
 
 section.about-new-girl {
-  margin: 70px 0px 0px 10px;
+  margin: 50px 0px 0px 10px;
+  display: block;
+  background-color: white;
+}
+
+section.about-new-girl img{
+  position: absolute;
+  top: 60px;
+  z-index: -1;
+}
+
+div.about{
+  margin-top: 50px;
 }
 
 body{
@@ -83,25 +132,14 @@ h3{
   text-align: center;
 }
 
-section{
+section.characters {
   background-color: white;
   border-radius: 20px;
   border-style: dotted;
-  margin: 10px;
-  padding: 15px;
-  width: 500px;
 }
 
-.characters {
-  border-radius: 30px;
-  border-style: groove;
-  border-width:thick;
-}
-
-section.characters{
-  position: relative;
-  top: 10px;
-  left: 100px;
+section.characters ul{
+  list-style-type: circle;
 }
 
 section.characters img{
@@ -110,18 +148,50 @@ section.characters img{
   left: 0px;
 }
 
-span.jess img {
+div.all-characters{
+  list-style-type: circle;
+}
+
+img {
     float: left;
+    width: 45%;
     padding: 15px 10px 15px;
 }
 
 blockquote {
-    float: none;
-    width: 400px;
+    float: right;
+    width: 45%;
     font-size: 125%;
     font-style: italic;
     margin: 0px 0px 10px 10px;
-    padding: 10px;
+    padding: 5px;
     border-top: 1px solid#665544;
     border-bottom: 1px solid #665544;
+}
+
+.ferguson{
+  position: absolute;
+  top: -40px;
+  left: 0px;
+  animation: drive 3s forwards infinite linear,
+            jump 0.6s 1.2s ease infinite;
+}
+
+@keyframes drive{
+  from{
+    transform: translatex(-200px);
+  }
+  to{
+    transform: translatex(1000px);
+  }
+}
+
+@keyframes jump{
+  0%{
+    top: -40%;
+  }
+  50%{
+    top: -100px;
+  100%{
+    top: -40px;
 }
