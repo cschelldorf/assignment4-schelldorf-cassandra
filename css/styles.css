@@ -160,7 +160,7 @@ li span {
 }
 
 section.characters img{
-  position: inline;
+  position: inherit;
   top: 60px;
   left: 0px;
   padding: 10px;
@@ -220,3 +220,4 @@ div.ferguson{
   100%{
     top: -40px;
   }
+}
